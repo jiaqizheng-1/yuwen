@@ -1,0 +1,34 @@
+html,body{
+  margin:0;
+  padding:0;
+  height:100%;
+  background:#060913;
+  overflow:hidden;
+  font-family:"Noto Serif SC","Microsoft Yahei",serif;
+  color:#fff;
+}
+.words{
+  position:absolute;
+  top:45%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  text-align:center;
+}
+.words p{
+  font-size:20px;
+  margin:6px 0;
+  animation:fade 6s ease-in-out infinite;
+}
+.sign{
+  color:#8ab8ff;
+  font-size:16px;
+  margin-top:10px;
+}
+@keyframes fade{
+  0%,100%{opacity:0.2;}
+  50%{opacity:1;}
+}
+canvas{
+  position:fixed;
+  top:0;left:0;width:100%;height:100%;
+}
